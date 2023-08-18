@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" size="16x16, 32x32, 48x48, 64x64, 128x128, 256x256" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/css/bootstrap-simplex.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+
+    <style type="text/css">
+      td { white-space: nowrap; }
+      td.desc { white-space: normal; }
+    </style>
+
+    <title>Meiosis Examples</title>
+  </head>
+  <body class="container">
+    <div>
+      <a href="http://meiosis.js.org"><img src="/public/images/meiosis.png" style="padding-bottom: 20px; margin-right: 8px" width="53px"></a>
+      <h2 style="display: inline;"><a href="http://meiosis.js.org">Meiosis</a> Examples</h2>
+
+      <div><a href="https://github.com/foxdonut/meiosis-examples/tree/master/examples" target="_blank">Source code</a></div>
+
+      <div class="row">
+        <div class="col-md-10">
+          <table class="table table-bordered table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Example</th>
+                <th>Run</th>
+                <th nowrap>View Library</th>
+                <th>Template Syntax</th>
+                <th>State</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="desc">
+                <td>
+                  <strong>Setup</strong> : basic Meiosis pattern setup with different view libraries.
+                </td>
+                <td>
+                  <a href="/examples/setup/mithril/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a>
+                </td>
+                <td>
+                  <a href="http://mithril.js.org" target="_blank">Mithril</a><br>
+                </td>
+                <td>
+                  <a href="https://mithril.js.org/hyperscript.html" target="_blank">hyperscript</a><br>
+                </td>
+                <td>
+                  <a href="https://github.com/fuzetsu/mergerino" target="_blank">Mergerino</a><br>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/examples/setup/preact/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a>
+                </td>
+                <td>
+                  <a href="https://preactjs.com" target="_blank">Preact</a><br>
+                </td>
+                <td>
+                  <a href="https://preactjs.com/guide/getting-started" target="_blank">JSX</a><br>
+                </td>
+                <td>
+                  <a href="https://github.com/lodash/lodash/wiki/FP-Guide" target="_blank">Lodash FP</a><br>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/examples/setup/react/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a>
+                </td>
+                <td>
+                  <a href="https://reactjs.org" target="_blank">React</a><br>
+                </td>
+                <td>
+                  <a href="https://reactjs.org/docs/jsx-in-depth.html" target="_blank">JSX</a><br>
+                </td>
+                <td>
+                  <a href="https://github.com/lodash/lodash/wiki/FP-Guide" target="_blank">Lodash FP</a><br>
+                </td>
+              </tr>
+              <tr class="desc">
+                <td>
+                  <strong>Setup</strong> : with services
+                </td>
+                <td>
+                  <a href="/examples/setup/services/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a>
+                </td>
+                <td>
+                  <a href="http://mithril.js.org" target="_blank">Mithril</a><br>
+                </td>
+                <td>
+                  <a href="https://mithril.js.org/hyperscript.html" target="_blank">hyperscript</a><br>
+                </td>
+                <td>
+                  <a href="https://github.com/fuzetsu/mergerino" target="_blank">Mergerino</a><br>
+                </td>
+              </tr>
+              <tr class="desc">
+                <td>
+                  <strong>Setup</strong> : with nesting
+                </td>
+                <td>
+                  <a href="/examples/setup/nesting/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a>
+                </td>
+                <td>
+                  <a href="https://preactjs.com" target="_blank">Preact</a><br>
+                </td>
+                <td>
+                  <a href="https://preactjs.com/guide/getting-started" target="_blank">JSX</a><br>
+                </td>
+                <td>
+                  <a href="https://github.com/lodash/lodash/wiki/FP-Guide" target="_blank">Lodash FP</a><br>
+                </td>
+              </tr>
+              <tr>
+                <td class="desc">
+                  <strong>Random-Gif</strong> : <a href="https://github.com/slorber/scalable-frontend-with-elm-or-redux"
+                    target="_blank">scalable front-end architecture</a>. Demonstrates component nesting on multiple levels,
+                    as well as a dynamic list of components.
+                </td>
+                <td><a href="/examples/random-gif/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a></td>
+                <td><a href="http://mithril.js.org" target="_blank">Mithril</a></td>
+                <td><a href="https://mithril.js.org/hyperscript.html" target="_blank">hyperscript</a></td>
+                <td>
+                  <a href="https://meiosis.js.org/setup" target="_blank">meiosis-setup</a><br>
+                  <a href="https://github.com/foxdonut/static-tagged-union" target="_blank">static-tagged-union</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="desc">
+                  <strong>RealWorld</strong> : front-end implementation of the
+                  <a href="http://realworld.io" target="_blank">RealWorld example</a>.
+                </td>
+                <td><a href="/examples/realworld/" class="btn btn-primary btn-xs" style="width:100%">run example</a></td>
+                <td>
+                  <a href="https://github.com/foxdonut/seview" target="_blank">seview</a> with
+                  <br>
+                  <a href="https://reactjs.org" target="_blank">React</a>,
+                  <br>
+                  <a href="https://preactjs.com" target="_blank">Preact</a>, or
+                  <br>
+                  <a href="https://mithril.js.org" target="_blank">Mithril</a>
+                </td>
+                <td><a href="https://github.com/foxdonut/seview" target="_blank">seview</a></td>
+                <td>
+                  <a href="https://meiosis.js.org/setup" target="_blank">meiosis-setup</a><br>
+                  <a href="https://meiosis.js.org/router" target="_blank">meiosis-router</a><br>
+                  <a href="https://validatejs.org/" target="_blank">Validate.js</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="desc">
+                  <strong>Coffee Shop</strong> : written in
+                  <a href="https://typescriptlang.org" target="_blank">TypeScript</a>,
+                  shows using common application components with
+                  <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>.
+                </td>
+                <td><a href="/examples/coffee-shop/index.html" class="btn btn-primary btn-xs" style="width:100%">run example</a></td>
+                <td><a href="https://preactjs.com" target="_blank">Preact</a></td>
+                <td><a href="https://preactjs.com/guide/getting-started" target="_blank">JSX</a></td>
+                <td>
+                  <a href="https://meiosis.js.org/setup" target="_blank">meiosis-setup</a><br>
+                  <a href="https://meiosis.js.org/router" target="_blank">meiosis-router</a><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "meiosis-examples",
+  "version": "1.0.0",
+  "description": "meiosis-examples",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "static-server -p ${PORT:-3000}",
+    "reload": "reload -w examples/random-gif/build,examples/setup/lit-html/build,examples/setup/mithril/build,examples/setup/preact/build,examples/setup/react/build,examples/todo-list/build,examples/todomvc/build -p ${PORT:-3000}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxdonut/meiosis-examples.git"
+  },
+  "keywords": [
+    "example",
+    "meiosis",
+    "reactive"
+  ],
+  "author": "foxdonut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxdonut/meiosis-examples/issues"
+  },
+  "homepage": "https://github.com/foxdonut/meiosis-examples#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-foxdonut": "^2.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reload": "^3.2.1"
+  }
+}
